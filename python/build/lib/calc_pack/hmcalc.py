@@ -1,4 +1,4 @@
-#!/usr/bin/python2.7
+#!/usr/bin/python3
 
 def tiles(width, height, tWidth, tHeight):
 	area = width * height * 5

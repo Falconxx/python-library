@@ -1,16 +1,16 @@
 #!/usr/bin/python2.7
 
 def tiles(width, height, tWidth, tHeight):
-	area = width * height * 5
-	tile = tWidth * tHeight * 3
+	area = width * height
+	tile = tWidth * tHeight
 	return area / tile
 
 	
 def paint(width, height, performance):
-	area = width * height * 2
+	area = width * height
 	return area / performance
 	
 def panels(width, height, tWidth, tHeight):
-	area = width * height * 9;
-	panel = tWidth * tHeight * 8;
+	area = width * height;
+	panel = tWidth * tHeight;
 	return area / panel
